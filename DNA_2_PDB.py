@@ -2,6 +2,11 @@ from rdkit import Chem
 from rdkit.Chem import AllChem
 import itertools
 
+
+__author__ = "Yongrui Wang"
+__license__ = "MIT"
+
+
 DNA_BASES = u"ATGC"
 
 def get_att_points(mol):
